@@ -1,0 +1,14 @@
+Class: Dog
+
+Attributes:
+breed (string)
+hypoallergenic (boolean)
+name (string)
+weight (integer)
+furColor (string)
+
+Methods:
+changeName (changes name attribute of dog)
+getsFed (changes weight attribute) +1
+causesAllergicReaction (uses hypoallergenic attribute) True/False
+exercises (decreases weight attribute) -1
