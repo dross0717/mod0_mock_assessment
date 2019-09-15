@@ -9,6 +9,22 @@ furColor (string)
 
 Methods:
 changeName (changes name attribute of dog)
-getsFed (changes weight attribute) +1
-causesAllergicReaction (uses hypoallergenic attribute) True/False
-exercises (decreases weight attribute) -1
+getsFed (increases weight attribute by 1)
+causesAllergicReaction (uses hypoallergenic attribute to be True or False)
+exercises (decreases weight attribute by 1)
+
+
+Class: Plant
+
+Attributes:
+owner (string)
+height (integer)
+genus (string)
+thorns (boolean)
+numberOfFlowers (integer)
+
+Methods:
+prunePlant (decreases numberOfFlowers attribute by 3)
+cutThorns (changes thorns attribute to False)
+waterPlant (increases height attribute by 1)
+sellPlant (changes owner attribute)
