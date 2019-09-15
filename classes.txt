@@ -10,7 +10,7 @@ furColor (string)
 Methods:
 changeName (changes name attribute of dog)
 getsFed (increases weight attribute by 1)
-causesAllergicReaction (uses hypoallergenic attribute to be True or False)
+causesAllergicReaction (changes hypoallergenic attribute to False)
 exercises (decreases weight attribute by 1)
 
 
