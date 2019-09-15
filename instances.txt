@@ -1,0 +1,63 @@
+Class: dog
+
+Object: bradsPuppy
+
+Attributes:
+breed: 'bichon frise shih-tzu mix'
+hypoallergenic: T
+name: 'Lou Pepe'
+weight: 14
+furColor: 'beige'
+
+MetHods:
+changeName: name = 'Bort'
+getsFed: weight = 15
+causesAllergicReaction: F
+exercises: weight = 14
+
+Object: myFutureDog
+
+Attributes:
+breed: 'dachschund'
+hypoallergenic: F
+name: 'Moira'
+weight: 8
+furColor: 'gold'
+
+Methods:
+changeName: 'Alexis'
+getsFed: weight = 9
+causesAllergicReaction: hypoallergenic = F
+exercises: weight = 8
+
+Class: Plant
+
+Object: devinsSucculent
+
+Attributes:
+owner: 'devin'
+height: 3
+genus: 'aloes'
+thorns: F
+numberOfFlowers: 5
+
+Methods:
+prunePlant: numberOfFlowers = 2
+cutThorns: thorns = F
+waterPlant: height = 4
+sellPlant: owner = 'sunny'
+
+Object: plantAtHomeDepot
+
+Attributes:
+owner: 'Home Depot'
+height: 20
+genus: 'rosa'
+thorns: T
+numberOfFlowers: 30
+
+Methods:
+prunePlant: numberOfFlowers = 27
+cutThorns: thorns = F
+waterPlant: height = 21
+sellPlant: owner = 'devin'
